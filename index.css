@@ -1,0 +1,240 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 40px;
+    width: 80px;
+    background-color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:focus{
+    color: grey;
+}
+
+.search {
+    background-color: rgb(36, 36, 36);
+    color: grey;
+    height: 30px;
+    width: 250px;
+    border-radius: 8%;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 300px
+    
+}
+
+.profile-dropdown {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.plus {
+    height: 15px;
+    width: 15px;
+}
+
+.down {
+    height: 20px;
+    width: 30px;
+}
+
+.main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-info {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.profile-picture {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.info-box {
+    height: 15%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name {
+    font-size: 24px;
+    color: rgb(92, 92, 92);
+}
+
+.edit {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10%;
+    background-color: rgb(211, 211, 211);
+}
+
+.location {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#location {
+    height: 20px;
+    width: 20px;
+}
+
+.fixed-tabs {
+    height: 10%;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: fixed;
+    margin-left: 30%;
+}
+
+.fixed-tabs > a {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.fixed-images {
+    height: 20px;
+    width: 20px;;
+}
+
+a span {
+    background-color: rgb(187, 187, 187);
+    border: 5px solid rgb(187, 187, 187);
+    border-radius: 35%;
+}
+
+.protip-box {
+    margin-top: 7%;
+    margin-left: 20px;
+    padding-top: 10px;
+    height: 10%;
+    width: 55%;
+    display: flex; 
+    border: 1px solid rgb(129, 129, 255);
+    background-color: rgb(161, 226, 226);
+    border-radius: 8%;
+    color: rgb(37, 37, 75);
+    font-size: 15px;
+}
+
+.protip {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.edit-profile {
+    height: 30px;
+    width: 120px;
+    border: 1px solid rgb(27, 158, 4);
+    border-radius: 8%;
+    background-color: rgb(26, 158, 26);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 10px;
+
+}
+
+.pencil {
+    height: 20px;
+    width: 20px;
+}
+
+.popular-repositories{
+    height: 80%;
+    width: 70%;
+    margin-top: 13%;
+    margin-left: 31%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#repo-boxes{
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 8%;
+    height: 110px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.repo-links {
+    color: blue;
+}
+
+.repo-links:hover {
+    color: blue;
+    text-decoration: underline;
+}
